@@ -107,12 +107,14 @@ function SetInitialClothes(initial)
     ClearPedDecorations(ped)
 end
 
-function InitializeCharacter(gender, onSubmit, onCancel)
+function InitializeCharacter(gender, onSubmit, onCancel) -- eh_cutscene
     SetInitialClothes(Config.InitialPlayerClothes[gender])
     local config = getNewCharacterConfig()
     TriggerServerEvent("illenium-appearance:server:ChangeRoutingBucket")
     client.startPlayerCustomization(function(appearance)
         if (appearance) then
+            TriggerEvent("eh_cutscene:client:StartCutscene") -->> Start eh_cutscene
+            print('^2Started eh_cutscene')
             TriggerServerEvent("illenium-appearance:server:saveAppearance", appearance)
             if onSubmit then
                 onSubmit()
