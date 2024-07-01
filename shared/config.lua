@@ -545,7 +545,7 @@ Config.Stores = {
     },
     {
         type = "surgeon",
-        coords = vector4(298.78, -572.81, 43.26, 114.27),
+        coords = vector4(-532.93, -597.9, 54.03, 179.18),
         size = vector3(4, 4, 4),
         rotation = 45,
         usePoly = false,
@@ -955,17 +955,17 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 2, -- Hair
-                drawable = 0,
+                drawable = 18,
                 texture = 0
             },
             {
                 component_id = 3, -- Upper Body
-                drawable = 0,
+                drawable = 15,
                 texture = 0
             },
             {
                 component_id = 4, -- Lower Body
-                drawable = 0,
+                drawable = 122,
                 texture = 0
             },
             {
@@ -975,17 +975,17 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 6, -- Shoes
-                drawable = 0,
+                drawable = 128,
                 texture = 0
             },
             {
                 component_id = 7, -- Scarf & Chains
-                drawable = 0,
+                drawable = 4,
                 texture = 0
             },
             {
                 component_id = 8, -- Shirt
-                drawable = 0,
+                drawable = 15,
                 texture = 0
             },
             {
@@ -995,12 +995,12 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 10, -- Decals
-                drawable = 0,
+                drawable = 150,
                 texture = 0
             },
             {
                 component_id = 11, -- Jacket
-                drawable = 0,
+                drawable = 15,
                 texture = 0
             }
         },
@@ -1043,8 +1043,8 @@ Config.InitialPlayerClothes = {
         Components = {
             {
                 component_id = 0, -- Face
-                drawable = 0,
-                texture = 0
+                drawable = 45,
+                texture = 21
             },
             {
                 component_id = 1, -- Mask
@@ -1058,12 +1058,12 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 3, -- Upper Body
-                drawable = 0,
+                drawable = 4,
                 texture = 0
             },
             {
                 component_id = 4, -- Lower Body
-                drawable = 0,
+                drawable = 17,
                 texture = 0
             },
             {
@@ -1073,7 +1073,7 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 6, -- Shoes
-                drawable = 0,
+                drawable = 35,
                 texture = 0
             },
             {
@@ -1083,7 +1083,7 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 8, -- Shirt
-                drawable = 0,
+                drawable = 2,
                 texture = 0
             },
             {
@@ -1098,7 +1098,7 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 11, -- Jacket
-                drawable = 0,
+                drawable = 5,
                 texture = 0
             }
         },
