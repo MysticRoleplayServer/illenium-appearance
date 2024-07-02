@@ -955,7 +955,7 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 2, -- Hair
-                drawable = 18,
+                drawable = 0,
                 texture = 0
             },
             {
@@ -965,7 +965,7 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 4, -- Lower Body
-                drawable = 122,
+                drawable = 110,
                 texture = 0
             },
             {
@@ -975,12 +975,12 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 6, -- Shoes
-                drawable = 128,
+                drawable = 35,
                 texture = 0
             },
             {
                 component_id = 7, -- Scarf & Chains
-                drawable = 4,
+                drawable = 0,
                 texture = 0
             },
             {
@@ -990,12 +990,12 @@ Config.InitialPlayerClothes = {
             },
             {
                 component_id = 9, -- Body Armor
-                drawable = 0,
+                drawable = 11,
                 texture = 0
             },
             {
                 component_id = 10, -- Decals
-                drawable = 150,
+                drawable = 0,
                 texture = 0
             },
             {
